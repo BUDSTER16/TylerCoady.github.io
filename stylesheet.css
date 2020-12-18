@@ -12,9 +12,42 @@ table{
 }
 
 img.twitch{
-	
 	padding-right: 20px;
 	max-width: 10%;
 	max-height: 10%;
 	float: left;
+}
+
+hr{
+	background-color: cyan;
+	border: 2px solid black;
+	width: 96%;
+	height: 5px;
+}
+
+.ListElements{
+	font-family: "Andale Mono", AndaleMono, monospace;
+	font-size: 18;
+}
+
+#intr{
+	color: purple;
+}
+
+img.portfolioImg{
+	filter: drop-shadow(26px 8px 4px #000000);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20%;
+	height: auto;
+	max-width: 50%
+}
+
+.personal{
+	background-color: #decac1;
+}
+
+.professional{
+	background-color: #d5dec1;
 }
