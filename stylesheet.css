@@ -7,8 +7,14 @@ body{
 	
 }
 
-table{
+table, tr, td{
 	border: 3px solid black;
+	border-style:ridge;
+	table-layout:auto;
+}
+
+td{
+	min-width: 150px;
 }
 
 img.twitch{
@@ -35,13 +41,13 @@ hr{
 }
 
 img.portfolioImg{
-	filter: drop-shadow(26px 8px 4px #000000);
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	border-radius: 20%;
+	border-radius: 5%;
 	height: auto;
-	max-width: 50%
+	max-width: 95%;
+	min-width: 90%
 }
 
 .personal{
@@ -50,4 +56,20 @@ img.portfolioImg{
 
 .professional{
 	background-color: #d5dec1;
+}
+
+.gameTitle{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 50%;
+	text-align: center;
+}
+
+.gameDesc{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 60%;
+	text-align: center;
 }
