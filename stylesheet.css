@@ -5,11 +5,16 @@ body{
 	text-align: left;
 	size: 95%;
 	
+	background-color: black;
+	color: maroon;
 }
 
 table, tr, td{
 	border: 3px solid black;
-	border-style:ridge;
+	border-style: none;
+	border-top-style:dashed;
+	border-color: red;
+	border-spacing: 40px;
 	table-layout:auto;
 }
 
@@ -46,8 +51,8 @@ img.portfolioImg{
 	margin-right: auto;
 	border-radius: 5%;
 	height: auto;
-	max-width: 95%;
-	min-width: 90%
+	max-width: 35%;
+	min-width: 25%
 }
 
 .personal{
@@ -72,4 +77,19 @@ img.portfolioImg{
 	margin-right: auto;
 	max-width: 60%;
 	text-align: center;
+}
+
+h1{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.PortfolioLink{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 24px;
 }
